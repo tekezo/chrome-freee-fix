@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "freee Workloads Fix",
+  "version": "1.0.0",
+  "description": "Adjusts combo box options on the freee workloads page.",
+  "content_scripts": [
+    {
+      "matches": ["https://pm.secure.freee.co.jp/workloads/*"],
+      "css": ["src/workloads.css"]
+    }
+  ]
+}
