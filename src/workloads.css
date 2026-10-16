@@ -1,5 +1,5 @@
 .vb-comboBox__listOption {
-  height: 3lh !important;
+  height: calc(3lh + 1rem) !important;
 
   > .vb-comboBoxItemLabel__normalItem {
     overflow: visible !important;
